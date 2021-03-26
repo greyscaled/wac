@@ -1,0 +1,12 @@
+version: 0.0
+workspace:
+  name: "vapurrmaid-wac-ubuntu"
+  type: "kubernetes"
+  spec:
+    # Image should already be registered in your coder's organization.
+    # Use the image's repo name.
+    image: ubuntu
+    container-based-vm: false
+    cpu: 1
+    memory: 1
+    disk: 10
