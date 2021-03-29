@@ -1,6 +1,5 @@
 version: 0.0
 workspace:
-  name: "vapurrmaid-wac-ubuntu"
   type: "kubernetes"
   spec:
     # Image should already be registered in your coder's organization.
